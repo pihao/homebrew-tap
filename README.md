@@ -1,4 +1,4 @@
-# Pihao Tap
+# pihao Tap
 
 [![brew test-bot](https://github.com/pihao/homebrew-tap/actions/workflows/tests.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/tests.yml)
 [![brew pr-pull](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml)

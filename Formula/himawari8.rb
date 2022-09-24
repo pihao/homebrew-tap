@@ -9,6 +9,14 @@ class Himawari8 < Formula
   version "0.0.3-10"
   license "BSD-3-Clause"
 
+  bottle do
+    root_url "https://github.com/pihao/homebrew-tap/releases/download/himawari8-v0.0.3-10"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "707e1b30e2113bbf0612f742fa4b4594d18ded4c0ea6c5c85c1312b272e06f75"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "707e1b30e2113bbf0612f742fa4b4594d18ded4c0ea6c5c85c1312b272e06f75"
+    sha256 cellar: :any_skip_relocation, monterey:       "e66b5ce63a2db123cb264d4192006b711025bff7202a523d5fa53e4ec5679d09"
+    sha256 cellar: :any_skip_relocation, big_sur:        "e66b5ce63a2db123cb264d4192006b711025bff7202a523d5fa53e4ec5679d09"
+  end
+
   depends_on "go" => :build
 
   def install

@@ -6,7 +6,7 @@ class Himawari8 < Formula
   homepage "https://himawari.asia"
   url "https://github.com/pihao/himawari8/archive/refs/tags/0.0.3.tar.gz"
   sha256 "72402042a20b9f1a9f52f83a65d311a099790a3c070a289c575f3c4c1bcf86bf"
-  version "0.0.3-9"
+  version "0.0.3-10"
   license "BSD-3-Clause"
 
   depends_on "go" => :build

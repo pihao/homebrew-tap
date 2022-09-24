@@ -1,7 +1,7 @@
 # Pihao Tap
 
-[![test](https://github.com/pihao/homebrew-tap/actions/workflows/test.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/test.yml)
-[![publish](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml)
+[![brew test-bot](https://github.com/pihao/homebrew-tap/actions/workflows/tests.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/tests.yml)
+[![brew pr-pull](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml)
 
 ## How do I install these formulae?
 

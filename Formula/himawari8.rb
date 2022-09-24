@@ -1,12 +1,9 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Himawari8 < Formula
-  desc "Himawari8 wallpaper for MacOS"
+  desc "MacOS wallpaper from Himawari8"
   homepage "https://himawari.asia"
   url "https://github.com/pihao/himawari8/archive/refs/tags/0.0.3.tar.gz"
-  sha256 "466fd130a0b5486fc0def35b76523e951c0adb0f1cb1c020a831fcfa0d6c61e8"
   version "0.0.3-10"
+  sha256 "466fd130a0b5486fc0def35b76523e951c0adb0f1cb1c020a831fcfa0d6c61e8"
   license "BSD-3-Clause"
 
   bottle do
@@ -22,7 +19,8 @@ class Himawari8 < Formula
   def install
     system "make", "build_brew"
     bin.install "himawari8"
-    system "mkdir", "-p", var/"run/himawari8", var/"log/himawari8"
+    mkdir var/"run/himawari8"
+    mkdir var/"log/himawari8"
   end
 
   service do

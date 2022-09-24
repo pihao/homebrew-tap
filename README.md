@@ -1,5 +1,8 @@
 # Pihao Tap
 
+[![test](https://github.com/pihao/homebrew-tap/actions/workflows/test.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/test.yml)
+[![publish](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml/badge.svg)](https://github.com/pihao/homebrew-tap/actions/workflows/publish.yml)
+
 ## How do I install these formulae?
 
 `brew install pihao/tap/<formula>`

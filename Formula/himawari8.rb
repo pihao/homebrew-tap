@@ -19,8 +19,11 @@ class Himawari8 < Formula
   def install
     system "make", "build_brew"
     bin.install "himawari8"
-    mkdir var/"run/himawari8"
-    mkdir var/"log/himawari8"
+  end
+
+  def post_install
+    (var/"run/himawari8").mkpath
+    (var/"log/himawari8").mkpath
   end
 
   service do
